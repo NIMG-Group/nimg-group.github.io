@@ -1,3 +1,17 @@
+@font-face {
+	font-family: Coda;
+	src: url(Coda.ttf);
+}
 body {
-  text-align: center;
-  }
+	text-align: center;
+	font-family: Coda;
+	background-image: url("underconst.png");
+}
+#box {
+	margin: auto;
+	width: 60%;
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+	border: 5px double white;
+	border-radius: 20px;
+}
