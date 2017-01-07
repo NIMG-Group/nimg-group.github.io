@@ -1,17 +1,46 @@
 @font-face {
-	font-family: Coda;
-	src: url(Coda.ttf);
+font-family: Coda;
+src: url(Coda.ttf);
 }
 body {
-	text-align: center;
-	font-family: Coda;
-	background-image: url("underconst.png");
+background: url('underconst.png');
+font-family: Coda;
+text-align: center;
+color: white;
+margin: 0px;
+}
+#menu {
+width: 100%;
+margin: auto;
+position: fixed;
+background: rgba(0, 0, 0, 0.75);
+border-bottom: 5px double white;
+}
+#menu ul {
+padding: 0px;
+}
+#menu li {
+display: inline-block;
+background: rgba(255, 192, 0, 0.8);
+color: black;
+border: 5px double white;
+border-radius: 6px;
+}
+#menu li a {
+padding: 2px;
+display: inline-block;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+#content {
+padding-top: 160px;
 }
 #box {
-	margin: auto;
-	width: 60%;
-	background: rgba(0, 0, 0, 0.4);
-	color: white;
-	border: 5px double white;
-	border-radius: 20px;
+margin: auto;
+width: 60%;
+background: rgba(0, 0, 0, 0.4);
+color: white;
+border: 5px double white;
+border-radius: 20px;
 }
