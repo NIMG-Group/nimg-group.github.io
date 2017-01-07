@@ -21,8 +21,7 @@ padding: 0px;
 }
 #menu li {
 display: inline-block;
-background: rgba(255, 192, 0, 0.8);
-color: black;
+background: rgba(255, 192, 0, 0.6);
 border: 5px double white;
 border-radius: 6px;
 }
@@ -31,7 +30,7 @@ padding: 2px;
 display: inline-block;
 text-decoration: none;
 font-weight: bold;
-color: black;
+color: white;
 }
 #content {
 padding-top: 160px;
