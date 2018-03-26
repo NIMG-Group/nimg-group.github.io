@@ -1,9 +1,9 @@
 @font-face {
     font-family: Coda;
-    src: url(Coda.ttf);
+    src: url(../fonts/Coda.ttf);
 }
 body {
-    background: url('underconst.png');
+    background: url('../images/underconst.png');
     font-family: Coda;
     text-align: center;
     color: white;
