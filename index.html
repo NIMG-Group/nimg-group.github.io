@@ -6,20 +6,55 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 	<link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
-	<title>NIMG Website</title>
+	
+    <title>NIMG Website | Home</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
+    
 <body>
-	<div id="menu">
-		<h1>NIMG Group Website</h1>
-		<ul>
-			<li><a href="/">Home</a></li>
-		</ul>
-	</div>
-	<div id="content">
-	<div id="box">
-		<h1>Welcome to our page!</h1>
-		<p><b>Our website is currently under construction. Thank you for your attention.</b></p>
-	</div>
-	</div>
+	<nav class="navbar">      
+        <div class="container">
+            <div class="brand">
+                <a href="index.html"><h2>NIMG-GROUP</h2></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="nav-item"><a href="#">About</a></li>
+                    <li class="nav-item active"><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="jumbotron">
+        <div class="header">
+                <h1>Nimg Group</h1>
+                <p>Some brainless people from the internet</p>
+        </div>
+    </div>
+    
+    <div class="beam">
+        <div class="container">
+            <script>
+                function irc(){
+                    alert("Join the #nimg_lobby channel at the RIZON network (irc.rizon.io)");
+                }
+            </script>
+            <a href="#IRC" onClick="irc()">
+                <div class="beam-grow irc">
+                    <h2>Join the IRC</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+    
 </body>
 </html>
